@@ -5,20 +5,23 @@
 
 `Step 2: Install the latest Cordova and Ionic command-line tools `
 
-`npm install -g cordova ionic `
+`Cmd: npm install -g cordova ionic `
 
 `Step 3: Install Sample Project `
 
-` ionic start myFirstApp tabs `
+`Cmd: ionic start myFirstApp tabs `
 
 `Step 4: process to run project`
 
-`cd myFirstApp`
+`Cmd: cd myFirstApp`
 
-`ionic platform add Android`
+`Cmd: ionic platform add Android`
 
-`ionic build Android`
+`Cmd: ionic build Android`
 
-`ionic emulate Android`
+`Cmd: ionic emulate Android`
 
+`Step 5: Run Ionic project in browser `
+
+`Cmd: ionic serve `
 
