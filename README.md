@@ -24,4 +24,6 @@
 `Step 5: Run Ionic project in browser `
 
 `Cmd: ionic serve `
+`or`
+`Cmd: ionic serve -l`
 
