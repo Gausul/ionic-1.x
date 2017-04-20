@@ -34,4 +34,24 @@
 
 `Cmd: cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-network-information.git`
 
+`Update Code In app.js file`
 
+`.run(function($ionicPlatform, $ionicPopup) {
+  $ionicPlatform.ready(function() {
+
+    // Check for network connection
+    if(window.Connection) {
+      if(navigator.connection.type == Connection.NONE) {
+        $ionicPopup.confirm({
+          title: 'No Internet Connection',
+          content: 'Sorry, no Internet connectivity detected. Please reconnect and try again.'
+        })
+        .then(function(result) {
+          if(!result) {
+            ionic.Platform.exitApp();
+          }
+        });
+      }
+    }
+
+  });`
