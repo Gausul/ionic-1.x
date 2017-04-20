@@ -36,8 +36,11 @@
 
 `Update Code In app.js file`
 
-`   // Check for network connection
+`   
+// Check for network connection
+
 .run(function($ionicPlatform, $ionicPopup) {
+  
   $ionicPlatform.ready(function() {
     if(window.Connection) {
       if(navigator.connection.type == Connection.NONE) {
@@ -53,4 +56,6 @@
       }
     }
 
-  });`
+  });
+  
+  `
