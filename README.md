@@ -36,11 +36,9 @@
 
 `Update Code In app.js file`
 
-`   
-// Check for network connection
-
-.run(function($ionicPlatform, $ionicPopup) {
-  
+`.run(function($ionicPlatform, $ionicPopup) {
+ // Check for network connection
+ 
   $ionicPlatform.ready(function() {
     if(window.Connection) {
       if(navigator.connection.type == Connection.NONE) {
