@@ -1,7 +1,7 @@
 # Ionic Default Icons
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
+| Ionic Icon Code      |Ionic Icon Result|
+| ---------------------|:---------------:|
+| col 3 is             | right-aligned   |
  
