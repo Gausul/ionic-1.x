@@ -10,7 +10,7 @@
 
 1: [GetDeviceID](https://github.com/Gausul/ionic-1.x/tree/master/GetDeviceID)
 
-
+2: [Ionic Default Icons](https://github.com/Gausul/ionic-1.x/tree/master/IonicIcons)
 
 
 
