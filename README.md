@@ -8,7 +8,7 @@
 
 # Example Projects
 
-[1:AccessRestApi] (https://github.com/Gausul/ionic-1.x)
+1: [AccessRestApi](https://github.com/Gausul/ionic-1.x)
 
 
 
