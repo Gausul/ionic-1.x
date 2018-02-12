@@ -1,5 +1,7 @@
-# Ionic 1.x
+![Cover](cover.png)
 
+
+# Ionic 1.x
  
 ### Give some star the repo to support the project
 
